@@ -1,0 +1,28 @@
+{
+  "name": "amethyst-neon",
+  "displayName": "Amethyst Neon",
+  "description": "Custom dark neon-violet theme: one-category-one-hue, 6-layer background ramp.",
+  "version": "0.1.0",
+  "publisher": "saimai",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Amethyst Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amethyst-neon-color-theme.json"
+      }
+    ]
+  },
+  "author": "Patthamon Charaschimpleekul",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatthamonCharaschimpleekul/amethyst-neon.git"
+  }
+}
